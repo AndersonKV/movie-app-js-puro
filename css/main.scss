@@ -1,0 +1,145 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.white {
+  color: white;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+
+.justify-content-flex-end {
+  justify-content: flex-start;
+  text-align: left !important;
+}
+
+.text-left {
+  text-align: left !important;
+
+}
+
+@import "layout/cadaster";
+@import "layout/listCompanies";
+
+
+.selected-view {
+  border-left: 5px solid green;
+
+}
+
+main {
+  font-family: 'Courier New', Courier, monospace;
+  background: red;
+  display: flex;
+  max-width: 1280px;
+  min-height: 600px;
+  margin: 0 auto;
+  background: gray;
+  border: 1px solid #d3d3d3;
+
+  aside {
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+
+    display: flex;
+    flex-direction: column;
+
+    div {
+      padding: 30px;
+      opacity: 0.5;
+      border-left: 5px solid transparent;
+
+      &:hover {
+        opacity: 1;
+        cursor: pointer;
+        border-left: 5px solid green;
+      }
+
+      i {
+        font-size: 1.5em;
+        color: white;
+        position: relative;
+
+      }
+    }
+  }
+
+  section {
+    background: whitesmoke;
+    flex: 1;
+
+    .header {
+      padding: 30px;
+      background: white;
+      border-bottom: 1px solid #d3d3d3;
+
+      h1 {
+        text-align: center;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+    }
+
+    .container {
+      padding: 30px;
+      background: whitesmoke;
+      height: auto;
+
+      h1 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+
+
+      .content-main {
+        display: flex;
+
+        .item {
+          width: 300px;
+          background: white;
+          border: 1px solid #d3d3d3;
+          margin: 10px 10px 10px 0px;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          cursor: pointer;
+
+          &:hover {
+            border-bottom: 1px solid gray;
+          }
+
+          i {
+            font-size: 5em;
+            color: gray;
+          }
+
+          span:nth-child(2) {
+            margin-top: 20px;
+            font-weight: bold;
+            font-family: sans-serif;
+
+
+          }
+        }
+      }
+
+    }
+  }
+}

@@ -1,0 +1,106 @@
+main {
+    .container {
+        .section-list-companies {
+
+            header {
+                padding: 20px;
+
+                background: linear-gradient(to right, #605C3C, #3C3B3F);
+
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+
+
+                .button-back {
+                    color: white;
+                    margin: 0px 15px 0px 0px;
+                }
+            }
+
+            .table {
+                width: 100%;
+                margin-bottom: 1rem;
+                color: #212529;
+            }
+
+
+            table {
+                border-collapse: collapse;
+                text-indent: initial;
+                border-spacing: 2px;
+                border-color: grey;
+                border: 1px solid #d3d3d3;
+
+                thead {
+                    display: table-header-group;
+                    vertical-align: middle;
+                    border-color: inherit;
+                    background: white;
+
+                    tr {
+
+                        th {
+                            vertical-align: bottom;
+                            border-bottom: 2px solid #dee2e6;
+
+                            padding: .75rem;
+                            vertical-align: top;
+                            border-top: 1px solid #dee2e6;
+                        }
+                    }
+
+                }
+
+                tbody {
+                    display: table-header-group;
+                    vertical-align: middle;
+                    border-color: inherit;
+
+
+                    &:nth-child(2n+0) {
+                        background: whitesmoke !important;
+                    }
+
+
+                    &:hover {
+                        background: wheat !important;
+                    }
+
+                    tr {
+
+                        background: white;
+
+                        &:nth-child(2n+0) {
+                            background: whitesmoke !important;
+                        }
+
+
+                        &:hover {
+                            background: wheat !important;
+                        }
+
+
+                        td {
+
+                            vertical-align: bottom;
+                            border-bottom: 2px solid #dee2e6;
+
+                            padding: .75rem;
+                            vertical-align: top;
+                            border-top: 1px solid #dee2e6;
+                            cursor: pointer;
+                            text-align: center;
+
+                        }
+                    }
+                }
+
+
+            }
+
+
+        }
+    }
+}

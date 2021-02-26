@@ -1,0 +1,183 @@
+#icon_movie {
+  font-size: 1.3em;
+}
+
+#main-index {
+  margin-top: 10%;
+}
+
+.container-search {
+  background-color: #424242 !important;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.container-search figure {
+  padding: 0px;
+  margin: 0px;
+}
+.container-search figure img {
+  width: 50px;
+}
+
+.list-section img {
+  width: 50px;
+}
+
+.list-section {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 5px;
+}
+
+.list-section:hover {
+  background-color: #616161 !important;
+}
+.list-section div {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  color: white;
+}
+
+.screen-movie div {
+}
+
+.box-text {
+  position: fixed;
+
+  width: 700px;
+  height: 460px;
+  margin-top: -250px; /* Half the height */
+  margin-left: 250px;
+  color: white;
+}
+
+.screen-movie img {
+  height: 460px !important;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.custom-btn {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-btn a {
+  font-size: 1.5em;
+  padding: 20px;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.text-inside {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 24px;
+}
+
+.modal {
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  padding: 24px;
+  width: 90% !important;
+  height: 90% !important;
+}
+
+.modal img {
+  width: 100px !important;
+  height: 100px !important;
+}
+.open {
+  display: block;
+}
+
+.close {
+  display: none;
+}
+.text-inside h5 {
+  max-width: 40ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-inside {
+  width: 100%;
+}
+.sinopse {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-center {
+  align-items: center;
+  display: flex;
+}
+
+.my-center h5 {
+  text-shadow: 2px 2px black;
+}
+
+.screen-movie h2 {
+  text-shadow: 2px 2px black;
+}
+
+#init-modal {
+  background-color: white;
+  margin: auto;
+  width: 50%;
+  top: 50%;
+  left: 25%;
+  position: absolute;
+  padding: 10px;
+}
+
+#init-modal .row {
+  padding: 30px;
+}
+
+.name {
+  text-decoration: underline;
+}
+
+.list-like {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 5px;
+}
+
+.list-like:hover {
+  background-color: whitesmoke;
+}
+.list-like div {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  color: white;
+}
+
+.list-like img {
+  width: 50px;
+}
